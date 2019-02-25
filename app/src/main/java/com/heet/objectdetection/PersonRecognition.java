@@ -19,7 +19,7 @@ public class PersonRecognition {
     private PersonGroup personGroup;
 
     private final String endpoint = "https://westcentralus.api.cognitive.microsoft.com/face/v1.0";
-    private final String subscriptionKey = "6e8f2e96be4d45719f8568f8298476b4";
+    private final String subscriptionKey = "";
     private final FaceServiceClient faceServiceClient = new FaceServiceRestClient(endpoint, subscriptionKey);
     private String personDetails;
     public PersonGroup getPersonGroup() {
